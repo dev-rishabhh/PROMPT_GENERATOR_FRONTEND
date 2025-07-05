@@ -9,7 +9,7 @@ import Navbar from './components/Navbar'
 import PromptImprover from './components/PromptImprover'
 import Stats from './components/Stats'
 import Register from "./components/Register"
-import Login from "./components/login"
+import Login from "./components/Loogin"
 Login
 function App() {
 
