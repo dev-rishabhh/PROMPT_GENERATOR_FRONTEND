@@ -12,9 +12,9 @@ const Register = () => {
   const navigate = useNavigate()
 
   const [formData, setFormData] = useState({
-    name: "Rishabh Pandey",
-    email: "rp265053@gmail.com",
-    password: "abcd",
+    name: "",
+    email: "",
+    password: "",
   });
 
   // serverError will hold the error message from the server

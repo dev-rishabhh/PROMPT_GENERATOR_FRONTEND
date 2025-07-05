@@ -8,8 +8,9 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import PromptImprover from './components/PromptImprover'
 import Stats from './components/Stats'
-import Login from "./components/login"
 import Register from "./components/Register"
+import Login from "./components/login"
+Login
 function App() {
 
   return (
@@ -24,8 +25,8 @@ function App() {
           <Stats key={5} />,
           <Contact key={6} />
         ]} />
-        <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </div>
