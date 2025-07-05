@@ -1,7 +1,7 @@
 
-import { useState, useEffect } from "react";
+import React,{ useState, useEffect } from "react";
 import "./Auth.css";
-import { BASE_URL } from "../apis/api";
+import { BASE_URL } from "../apis/api.js";
 import { Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 import { GoogleLogin } from "@react-oauth/google";
