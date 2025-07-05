@@ -1,1 +1,1 @@
-export const BASE_URL="https://prompt-generator-backend-1.onrender.com/"
+export const BASE_URL="https://prompt-generator-backend-kj66.onrender.com/"
