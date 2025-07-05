@@ -20,6 +20,7 @@ const PromptImprover = () => {
     setIsLoading(true);
 
     try {
+      setImprovedPrompt("")
       const response=await fetch(`${BASE_URL}/ai`,{
         method:"POST",
         headers:{
@@ -44,9 +45,6 @@ const PromptImprover = () => {
         
       }
       read()
-      
-   
-      
     } catch (error) {
       console.log(error);
       
