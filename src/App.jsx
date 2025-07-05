@@ -25,8 +25,8 @@ function App() {
           <Stats key={5} />,
           <Contact key={6} />
         ]} />
-        <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
       <Footer />
     </div>
