@@ -1,1 +1,1 @@
-export const BASE_URL="http://localhost:4000"
+export const BASE_URL="https://prompt-generator-backend-1.onrender.com/"
