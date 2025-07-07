@@ -43,19 +43,13 @@ const Login = () => {
         },
         credentials: "include"
       });
-      console.log(response);
-      
-
       const data = await response.json();
-
-      console.log(data);
-
       if (data.error) {
         // If there's an error, set the serverError message
         setServerError(data.error);
       } else {
         // On success, navigate to home or any other protected route
-        // location.replace("/")
+        location.replace("/")
       }
     } catch (error) {
       console.error("Error:", error);
