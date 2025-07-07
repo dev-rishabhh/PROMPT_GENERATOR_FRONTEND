@@ -21,6 +21,7 @@ const PromptImprover = () => {
 
     try {
       setImprovedPrompt("")
+      setPrompt("")
       const response=await fetch(`${BASE_URL}/ai`,{
         method:"POST",
         headers:{
